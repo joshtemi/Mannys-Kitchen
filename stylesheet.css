@@ -4,16 +4,40 @@
     margin: 0;
 }
 
-
+body{
+  
+}
 h1{
     background-color: orange;
+    min-height: 7vh;
 }
-
 #form-section{
+    background-image: url(./images/food\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 93vh;
+   display: flex;
+  padding-top: 20vh;
+   /* text-align: center; */
+}
+#form-style{
+   
+    padding: 5vh;
+    align-items: center;
     text-align: center;
-    padding: 4vh;
+    
+    width: 45vw;
+    height: 50vh;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgb(224, 222, 222);
 }
 
+#form{
+    margin-top: 7vh;
+    
+}
 input,select{
     text-align: center;
 }
