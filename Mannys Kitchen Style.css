@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+    background-color: orange;
+}
+
+#form-section{
+    text-align: center;
+    padding: 4vh;
+}
+
+input,select{
+    text-align: center;
+}
