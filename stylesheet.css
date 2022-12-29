@@ -7,9 +7,15 @@
 body{
   
 }
-h1{
+header{
     background-color: orange;
+}
+h1{
+    background-color: white;
     min-height: 7vh;
+    color: orange;
+    padding: 1em;
+    width: max-content;
 }
 #form-section{
     background-image: url(./images/food-background.jpg);
@@ -26,10 +32,12 @@ h1{
     padding: 5vh;
     align-items: center;
     text-align: center;
+    box-shadow: 3px 1px 37px 0px rgba(0,0,0,0.89);
     
     width: 45vw;
     height: 50vh;
-    border: 1px solid black;
+    
+    border-radius: 7px;
     margin: 0 auto;
     background-color: rgb(224, 222, 222);
 }
@@ -41,6 +49,16 @@ h1{
 input,select{
     text-align: center;
 }
+.div-pad{
+    padding:  5px 0 5px 0 ;
+    /* background-color: red; */
+}
+#send-button{
+    background-color: orange;
+    color: white;
+    border-radius: 7px;
+    padding: 1em;
+}
 
 @media only screen and (max-width: 600px){
     h1{
@@ -48,5 +66,7 @@ input,select{
     }
     #form-style{
         width: 75vw;
+        max-height: 80vh;
+        padding-bottom: 20px;
     }
 }
