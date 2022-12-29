@@ -12,7 +12,7 @@ h1{
     min-height: 7vh;
 }
 #form-section{
-    background-image: url(images/food-background.jpg);
+    background-image: url(./images/food-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,4 +40,13 @@ h1{
 }
 input,select{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        background-color: red;
+    }
+    #form-style{
+        width: 75vw;
+    }
 }
