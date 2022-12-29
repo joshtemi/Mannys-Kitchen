@@ -44,7 +44,7 @@ input,select{
 
 @media only screen and (max-width: 600px){
     h1{
-        background-color: red;
+        background-color: orange;
     }
     #form-style{
         width: 75vw;
