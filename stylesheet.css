@@ -9,13 +9,18 @@ body{
 }
 header{
     background-color: orange;
+    /* padding: 0.5em; */
 }
 h1{
     background-color: white;
     min-height: 7vh;
     color: orange;
-    padding: 1em;
+    
+    padding: .5em;
     width: max-content;
+}
+#manny{
+    font-size: 2rem;
 }
 #form-section{
     background-image: url(./images/food-background.jpg);
@@ -62,7 +67,7 @@ input,select{
 
 @media only screen and (max-width: 600px){
     h1{
-        background-color: orange;
+        background-color: white;
     }
     #form-style{
         width: 75vw;
